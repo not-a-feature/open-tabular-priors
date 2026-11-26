@@ -1,0 +1,25 @@
+[project]
+name = "open-tabular-priors"
+version = "0.1.0"
+description = "Composable synthetic priors for supervised tabular learning"
+readme = "README.md"
+license = "EUPL-1.2"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.0"]
+
+[project.optional-dependencies]
+torch = ["torch>=2.5"]
+
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.hatch.build.targets.sdist]
+exclude = ["/.github", "/benchmarks"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/open_tabular_priors"]

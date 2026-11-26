@@ -1,0 +1,179 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "means": [
+    {
+      "model": "nanotabpfn",
+      "arm": "other",
+      "metric": "nll",
+      "mean": 0.42875517388658074
+    },
+    {
+      "model": "nanotabpfn",
+      "arm": "other",
+      "metric": "auroc",
+      "mean": 0.7187532391697419
+    },
+    {
+      "model": "nanotabpfn",
+      "arm": "other",
+      "metric": "f1",
+      "mean": 0.5418741826052879
+    },
+    {
+      "model": "nanotabpfn",
+      "arm": "other",
+      "metric": "mcc",
+      "mean": 0.15859031698800966
+    },
+    {
+      "model": "nanotabpfn",
+      "arm": "weighted",
+      "metric": "nll",
+      "mean": 0.447369233782986
+    },
+    {
+      "model": "nanotabpfn",
+      "arm": "weighted",
+      "metric": "auroc",
+      "mean": 0.6365121143360549
+    },
+    {
+      "model": "nanotabpfn",
+      "arm": "weighted",
+      "metric": "f1",
+      "mean": 0.47268483881977436
+    },
+    {
+      "model": "nanotabpfn",
+      "arm": "weighted",
+      "metric": "mcc",
+      "mean": 0.04754761495296469
+    },
+    {
+      "model": "nanotabicl",
+      "arm": "other",
+      "metric": "nll",
+      "mean": 0.413283119699492
+    },
+    {
+      "model": "nanotabicl",
+      "arm": "other",
+      "metric": "auroc",
+      "mean": 0.7384386494038164
+    },
+    {
+      "model": "nanotabicl",
+      "arm": "other",
+      "metric": "f1",
+      "mean": 0.5374457557098223
+    },
+    {
+      "model": "nanotabicl",
+      "arm": "other",
+      "metric": "mcc",
+      "mean": 0.15794715586099764
+    },
+    {
+      "model": "nanotabicl",
+      "arm": "weighted",
+      "metric": "nll",
+      "mean": 0.39647337550281286
+    },
+    {
+      "model": "nanotabicl",
+      "arm": "weighted",
+      "metric": "auroc",
+      "mean": 0.744647305331844
+    },
+    {
+      "model": "nanotabicl",
+      "arm": "weighted",
+      "metric": "f1",
+      "mean": 0.5939337226367155
+    },
+    {
+      "model": "nanotabicl",
+      "arm": "weighted",
+      "metric": "mcc",
+      "mean": 0.24987670976674226
+    }
+  ],
+  "paired": [
+    {
+      "model": "nanotabpfn",
+      "metric": "nll",
+      "weighted_minus_other": 0.018614059896405355,
+      "ci95": [
+        -0.005543700313777312,
+        0.04081048613857391
+      ]
+    },
+    {
+      "model": "nanotabpfn",
+      "metric": "auroc",
+      "weighted_minus_other": -0.08224112483368692,
+      "ci95": [
+        -0.11204001073786093,
+        -0.054549557325607685
+      ]
+    },
+    {
+      "model": "nanotabpfn",
+      "metric": "f1",
+      "weighted_minus_other": -0.06918934378551343,
+      "ci95": [
+        -0.10660382470692956,
+        -0.035245005690098336
+      ]
+    },
+    {
+      "model": "nanotabpfn",
+      "metric": "mcc",
+      "weighted_minus_other": -0.11104270203504499,
+      "ci95": [
+        -0.16093487610762883,
+        -0.066136480723525
+      ]
+    },
+    {
+      "model": "nanotabicl",
+      "metric": "nll",
+      "weighted_minus_other": -0.016809744196679143,
+      "ci95": [
+        -0.048218003925666934,
+        0.0035115498834092707
+      ]
+    },
+    {
+      "model": "nanotabicl",
+      "metric": "auroc",
+      "weighted_minus_other": 0.006208655928027609,
+      "ci95": [
+        -0.0048603103024662,
+        0.021483704171103592
+      ]
+    },
+    {
+      "model": "nanotabicl",
+      "metric": "f1",
+      "weighted_minus_other": 0.05648796692689313,
+      "ci95": [
+        0.019959169160769244,
+        0.10304485074892374
+      ]
+    },
+    {
+      "model": "nanotabicl",
+      "metric": "mcc",
+      "weighted_minus_other": 0.09192955390574456,
+      "ci95": [
+        0.03533623722038246,
+        0.1638454898307549
+      ]
+    }
+  ]
+}
