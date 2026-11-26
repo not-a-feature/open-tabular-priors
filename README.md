@@ -1,6 +1,6 @@
 # Open Tabular Priors
 
-![A causal graph and a distribution generate a table](logo.svg)
+![A causal graph and a distribution generate a table](https://raw.githubusercontent.com/not-a-feature/open-tabular-priors/main/logo.svg)
 
 Generate reproducible synthetic classification and regression episodes for
 tabular in-context learning with NumPy or PyTorch.
@@ -78,7 +78,7 @@ batching and more complex episodes.
 
 ## Evaluation
 
-![Training on the reference dumps versus our narrow prior. The narrow prior leads nanoTabPFN on NLL and AUROC. The ICL dump leads both models on macro-F1.](docs/reference-dump-comparison.png)
+![Training on the reference dumps versus our narrow prior. The narrow prior leads nanoTabPFN on NLL and AUROC. The ICL dump leads both models on macro-F1.](https://raw.githubusercontent.com/not-a-feature/open-tabular-priors/main/docs/reference-dump-comparison.png)
 
 Points show means over three seeds and 30 binary TabArena-Lite development
 tasks. Bars span the lowest and highest seed means.

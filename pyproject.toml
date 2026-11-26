@@ -1,12 +1,15 @@
 [project]
 name = "open-tabular-priors"
-version = "0.1.0"
+version = "0.1.1"
 description = "Composable synthetic priors for supervised tabular learning"
 readme = "README.md"
 license = "EUPL-1.2"
 license-files = ["LICENSE"]
 requires-python = ">=3.11"
 dependencies = ["numpy>=2.0"]
+
+[project.urls]
+Source = "https://github.com/not-a-feature/open-tabular-priors"
 
 [project.optional-dependencies]
 torch = ["torch>=2.5"]
